@@ -1,0 +1,44 @@
+.listItem {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recipeTitle {
+  flex-basis: 80%;
+}
+
+.recipeDelete {
+  flex-basis: 10%;
+}
+
+.recipeDescription {
+  flex-basis: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.deleteButton {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #c04131;
+  border: 1px solid #dd4b39;
+  outline: none;
+  border-radius: 2px;
+  background-image: linear-gradient(#dd4b39, #d14836);
+  padding: 5px 10px 5px 10px;
+}
+
+.deleteButton:hover {
+  background-image: linear-gradient(#dd4b39, #c53727);
+}
+
+.deleteButton:active {
+  background-image: linear-gradient(#d74736, #ad2719);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.headerRow {
+  margin: 20px;
+}
